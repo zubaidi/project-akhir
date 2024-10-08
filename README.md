@@ -1,9 +1,9 @@
 # PROJECT AKHIR KELAS XI PPLG #
 
-## Resource
+## Deskripsi
 + Materi : PHP Dasar
 + Stage : POST, GET, Array
-+ Resource : CSS Tailwind Windows Version
++ Resource Layout : CSS Tailwind
 
 ## Layout
 Dashboard:
