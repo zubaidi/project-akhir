@@ -78,6 +78,14 @@
                         <a href="/kelurahan.php" class="text-sm text-blue-600 dark:text-blue-500 hover:underline cursor-pointer">Lihat selengkapnya...</a>
                     </div>
                     </div>
+                </li>
+                <li class="flex justify-between gap-x-6 py-5">
+                    <div class="flex min-w-0 gap-x-4">
+                    <img class="h-12 w-12 flex-none rounded-full bg-gray-50" src="/img/tapera.png" alt="">
+                    <div class="min-w-0 flex-auto">
+                        <p class="text-lg font-semibold leading-6 text-gray-900">Simulasi TAPERA</p>
+                        <a href="/simulasi-umr.php" class="text-sm text-blue-600 dark:text-blue-500 hover:underline cursor-pointer">Lihat selengkapnya...</a>
+                    </div>
                     </div>
                 </li>
             </ul>
