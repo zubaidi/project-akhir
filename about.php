@@ -45,12 +45,15 @@
         </div>
     </header>
     <main>
-        <div class="py-6 px-6 w-3/4">
-            <div class="text-center">
-                <p class="border-solid border-blue-500">Prototype website ini digunakan sebagai Tugas Akhir Produktif Rekayasa Perangkat Lunak Mata Pelajaran Pemrograman Web (Backend Programming)</p>
-            </div>
-            <div class="py-5">
-                <p class="m-auto">Nama Lengkap</p>
+        <div class="py-6 px-6 grid-grid-cols-1">
+            <div class="py-4 px-4 block max-w-sm bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                <div class="text-center">
+                    <p class="border-solid border-blue-500">Prototype website ini digunakan sebagai Tugas Akhir Produktif Rekayasa Perangkat Lunak Mata Pelajaran Pemrograman Web (Backend Programming)</p>
+                </div>
+                <div class="py-5">
+                    <p class="m-auto">Nama Lengkap</p>
+                    
+                </div>
             </div>
         </div>
     </main>
