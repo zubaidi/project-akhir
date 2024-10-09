@@ -61,7 +61,7 @@
     <header class="bg-white shadow">
         <div class="px-4 py-6 sm:px-6 lg:px-8 grid grid-cols-2">
             <div>
-                <h1 class="text-3xl font-bold tracking-tight text-gray-900">Simulasi Tapera</h1>
+                <h1 class="text-3xl font-bold tracking-tight text-gray-900">Simulasi TAPERA</h1>
             </div>
             <div class="max-w-full text-right">
                 <a href="/" class="text-blue-800 italic">
@@ -89,14 +89,22 @@
             <div class="py-4 grid-grid-cols-1">
                 <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST" class="py-4 px-4 block max-w-sm bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                     <?php if($selectedData && isset($data[$selectedData])): ?>
-                        <label>Kota / Kabupaten </label>
-                        <input type="text" value="<?php echo $data[$selectedData]['wil']; ?>" disabled class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
-                        <label>Upah Minimum</label>
-                        <input type="text" value="Rp. <?php echo number_format($data[$selectedData]['umr'], 0, ',', '.'); ?>" disabled class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
-                        <label>Biaya Tapera (3%)</label>
-                        <input type="text" value="Rp. <?php echo number_format($data[$selectedData]['tap'], 0, ',', '.'); ?>" disabled class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
-                        <label>Gaji Diterima</label>
-                        <input type="text" value="Rp. <?php echo number_format($data[$selectedData]['gaji'], 0, ',', '.'); ?>" disabled class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                        <div>
+                            <label>Kota / Kabupaten </label>
+                            <input type="text" value="<?php echo $data[$selectedData]['wil']; ?>" disabled class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                        </div>
+                        <div class="py-4">
+                            <label>Upah Minimum</label>
+                            <input type="text" value="Rp. <?php echo number_format($data[$selectedData]['umr'], 0, ',', '.'); ?>" disabled class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                        </div>
+                        <div class="py-2">
+                            <label>Biaya Tapera (3%)</label>
+                            <input type="text" value="Rp. <?php echo number_format($data[$selectedData]['tap'], 0, ',', '.'); ?>" disabled class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                        </div>
+                        <div class="py-2">
+                            <label>Gaji Diterima</label>
+                            <input type="text" value="Rp. <?php echo number_format($data[$selectedData]['gaji'], 0, ',', '.'); ?>" disabled class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                        </div>
                     <?php else: ?>
                         <p class="text-4xl font-semibold text-gray-900 dark:text-white">Data Kota/Kabupaten Belum Dipilih</p>
                     <?php endif ?>

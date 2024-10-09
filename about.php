@@ -38,57 +38,72 @@
     </nav>
 
     <header class="bg-white shadow">
-        <div class="px-6 py-6 sm:px-6 lg:px-8 grid grid-cols-2">
+        <div class="px-4 py-6 sm:px-6 lg:px-8 grid grid-cols-2">
             <div>
                 <h1 class="text-3xl font-bold tracking-tight text-gray-900">Tentang Saya</h1>
+            </div>
+            <div class="max-w-full text-right">
+                <a href="/" class="text-blue-800 italic">
+                    Ke Dashboard</a>
             </div>
         </div>
     </header>
     <main class="mt-8 mx-auto max-w-2xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
         <div class="py-6 px-3 grid-grid-cols-1">
-            <div class="py-4 px-4 block max-w-sm bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+            <div class="py-4 px-4 block max-w-sm bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 grid grid-cols-2">
+                <div class="flex justify-center items-center">
+                    <img src="/img/sa.png" alt="" height="400" width="400">
+                </div>
                 <div class="bg-white overflow-hidden shadow rounded-lg border">
                     <div class="px-4 py-5 sm:px-6 mt-3">
                         <h3 class="text-lg leading-6 font-medium text-gray-900">
-                            User Profile
+                            Profil Saya
                         </h3>
                         <p class="mt-1 max-w-2xl text-sm text-gray-500">
-                            This is some information about the user.
+                            Deskripsi singkat tentang pengembang sistem.
                         </p>
                     </div>
+                    <hr>
                     <div class="border-t border-gray-200 px-4 py-5 sm:p-0">
                         <dl class="sm:divide-y sm:divide-gray-200">
-                            <div class="py-3 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                            <div class="py-1 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
                                 <dt class="text-sm font-medium text-gray-500">
-                                    Full name
+                                    Nama Lengkap
                                 </dt>
                                 <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
-                                    John Doe
+                                    < <em>Diisi nama lengkap kamu</em> >
                                 </dd>
                             </div>
-                            <div class="py-3 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                            <div class="py-2 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
                                 <dt class="text-sm font-medium text-gray-500">
-                                    Email address
+                                    Nomor Induk Siswa
                                 </dt>
                                 <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
-                                    johndoe@example.com
+                                    < <em>Diisi NIS kamu</em> >
                                 </dd>
                             </div>
-                            <div class="py-3 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                            <div class="py-2 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
                                 <dt class="text-sm font-medium text-gray-500">
-                                    Phone number
+                                    Alamat Email
                                 </dt>
                                 <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
-                                    (123) 456-7890
+                                    < <em>Diisi email kamu yang aktif</em> >
                                 </dd>
                             </div>
-                            <div class="py-3 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                            <div class="py-2 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
                                 <dt class="text-sm font-medium text-gray-500">
-                                    Address
+                                    Nomor Telpon dan Whatsapp
                                 </dt>
                                 <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
-                                    123 Main St<br>
-                                    Anytown, USA 12345
+                                    < <em>Diisi nomor whatsapp</em> >
+                                </dd>
+                            </div>
+                            <div class="py-2 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                                <dt class="text-sm font-medium text-gray-500">
+                                    Kelas
+                                </dt>
+                                <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
+                                    < <em>Diisi kelas kamu</em> >
                                 </dd>
                             </div>
                         </dl>
