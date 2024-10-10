@@ -36,22 +36,22 @@
         <div class="flex h-16 items-center justify-between">
             <div class="flex items-center">
             <div class="flex flex-shrink-0 items-center">
-                        <img class="h-8 w-auto" src="/img/sa.png" alt="Your Company">
+                        <img class="h-8 w-auto" src="/project-akhir/img/sa.png" alt="Your Company">
                     </div>
             <div class="hidden md:block">
                 <div class="ml-10 flex items-baseline space-x-4">
                 <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-                <a href="/" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white" >Dashboard</a>
-                <a href="/kelurahan.php" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Kota / Kabupaten</a>
-                <a href="/kecamatan.php" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Kecamatan</a>
-                <a href="/kelurahan.php" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Kelurahan</a>
-                <a href="/simulasi-umr.php" class="rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-white" aria-current="page">Simulasi Tapera</a>
+                <a href="/project-akhir" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white" >Dashboard</a>
+                <a href="/project-akhir/kelurahan.php" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Kota / Kabupaten</a>
+                <a href="/project-akhir/kecamatan.php" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Kecamatan</a>
+                <a href="/project-akhir/kelurahan.php" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Kelurahan</a>
+                <a href="/project-akhir/simulasi-umr.php" class="rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-white" aria-current="page">Simulasi Tapera</a>
                 </div>
             </div>
             </div>
             <div class="relative ml-3">
                 <div>
-                    <a href="/about.php" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Tentang Saya</a>
+                    <a href="/project-akhir/about.php" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Tentang Saya</a>
                 </div>
             </div>
         </div>
@@ -64,7 +64,7 @@
                 <h1 class="text-3xl font-bold tracking-tight text-gray-900">Simulasi TAPERA</h1>
             </div>
             <div class="max-w-full text-right">
-                <a href="/" class="text-blue-800 italic">
+                <a href="/project-akhir" class="text-blue-800 italic">
                     Ke Dashboard</a>
             </div>
         </div>
