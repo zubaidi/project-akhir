@@ -43,7 +43,7 @@
         <div class="flex h-16 items-center justify-between">
             <div class="flex items-center">
             <div class="flex flex-shrink-0 items-center">
-                        <img class="h-8 w-auto" src="/project-akhir/img/sa.png" alt="Your Company">
+                        <img class="h-8 w-auto" src="./img/sa.png" alt="Your Company">
                     </div>
             <div class="hidden md:block">
                 <div class="ml-10 flex items-baseline space-x-4">
@@ -59,7 +59,8 @@
             
             <div class="relative ml-3">
                 <div>
-                    <a href="/about.php" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Tentang Saya</a><a href="/" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Sign Out</a>
+                    <a href="/about.php" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Tentang Saya</a>
+                    <a href="/" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Sign Out</a>
                 </div>
             </div>
         </div>
