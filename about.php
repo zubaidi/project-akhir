@@ -15,16 +15,15 @@
         <div class="flex h-16 items-center justify-between">
             <div class="flex items-center">
             <div class="flex flex-shrink-0 items-center">
-                        <img class="h-8 w-auto" src="/img/sa.png" alt="Your Company">
+                        <img class="h-8 w-auto" src="/project-akhir/img/sa.png" alt="Your Company">
                     </div>
             <div class="hidden md:block">
                 <div class="ml-10 flex items-baseline space-x-4">
                 <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-                <a href="/dashboard.php" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white" >Dashboard</a>
+                <a href="/" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white" >Dashboard</a>
                 <a href="/kota.php" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Kota / Kabupaten</a>
                 <a href="/kecamatan.php" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Kecamatan</a>
                 <a href="/kelurahan.php" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Kelurahan</a>
-                <a href="/simulasi-umr.php" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Simulasi Tapera</a>
                 </div>
             </div>
             </div>
@@ -32,7 +31,6 @@
             <div class="relative ml-1">
                 <div>
                     <a href="/about.php" class="rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-white" aria-current="page">Tentang Saya</a>
-                    <a href="/" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Sign Out</a>
                 </div>
             </div>
         </div>
@@ -45,7 +43,7 @@
                 <h1 class="text-3xl font-bold tracking-tight text-gray-900">Tentang Saya</h1>
             </div>
             <div class="max-w-full text-right">
-                <a href="/" class="text-blue-800 italic">
+                <a href="/project-akhir" class="text-blue-800 italic">
                     Ke Dashboard</a>
             </div>
         </div>
@@ -54,7 +52,7 @@
         <div class="py-6 px-6">
             <div class="py-4 px-4 w-full bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 grid grid-cols-2">
                 <div class="flex justify-center items-center">
-                    <img src="/img/sa.png" alt="" height="300" width="300">
+                    <img src="/img/sa.png" alt="" height="400" width="400">
                 </div>
                 <div class="bg-white overflow-hidden shadow rounded-lg border">
                     <div class="px-4 py-3 sm:px-6 mt-3">

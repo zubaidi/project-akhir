@@ -33,6 +33,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tugas Akhir</title>
     <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+     <link rel="stylesheet" href="/project-akhir/src/datatables.min.css">
     <link rel="stylesheet" href="src/output.css">
 </head>
 <body class="h-full">
@@ -42,7 +43,7 @@
         <div class="flex h-16 items-center justify-between">
             <div class="flex items-center">
             <div class="flex flex-shrink-0 items-center">
-                        <img class="h-8 w-auto" src="/img/sa.png" alt="Your Company">
+                        <img class="h-8 w-auto" src="/project-akhir/img/sa.png" alt="Your Company">
                     </div>
             <div class="hidden md:block">
                 <div class="ml-10 flex items-baseline space-x-4">
@@ -71,7 +72,7 @@
                 <h1 class="text-3xl font-bold tracking-tight text-gray-900">Data Kelurahan / Desa di Kab. Pekalongan</h1>
             </div>
             <div class="max-w-full text-right">
-                <a href="/" class="text-blue-800 italic">
+                <a href="/project-akhir/" class="text-blue-800 italic">
                     Ke Dashboard</a>
             </div>
         </div>
@@ -122,8 +123,7 @@
         </div>
     </main>
 </body>
-<script src="src/jquery.js"></script>
-<script src="src/dataTables.js"></script>
+<script src="/project-akhir/src/datatables.min.js"></script>
 <script>
     $(document).ready(function(){
         $('#tabeldata').DataTable();
