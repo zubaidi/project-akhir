@@ -41,7 +41,7 @@
             <div class="hidden md:block">
                 <div class="ml-10 flex items-baseline space-x-4">
                 <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-                <a href="/" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white" >Dashboard</a>
+                <a href="/dashboard.php" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white" >Dashboard</a>
                 <a href="/kelurahan.php" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Kota / Kabupaten</a>
                 <a href="/kecamatan.php" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Kecamatan</a>
                 <a href="/kelurahan.php" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Kelurahan</a>
@@ -52,6 +52,7 @@
             <div class="relative ml-3">
                 <div>
                     <a href="/about.php" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Tentang Saya</a>
+                    <a href="/" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Sign Out</a>
                 </div>
             </div>
         </div>
@@ -86,8 +87,8 @@
                     </div>
                 </div>
             </form>
-            <div class="py-4 grid-grid-cols-1">
-                <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST" class="py-4 px-4 block max-w-sm bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+            <div class="py-4">
+                <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST" class="py-4 px-4 block max-w bg-white border border-gray-200 rounded-lg shadow">
                     <?php if($selectedData && isset($data[$selectedData])): ?>
                         <div>
                             <label>Kota / Kabupaten </label>
@@ -106,7 +107,7 @@
                             <input type="text" value="Rp. <?php echo number_format($data[$selectedData]['gaji'], 0, ',', '.'); ?>" disabled class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
                         </div>
                     <?php else: ?>
-                        <p class="text-4xl font-semibold text-gray-900 dark:text-white">Data Kota/Kabupaten Belum Dipilih</p>
+                        <p class="text-1xl font-semibold text-gray-900 dark:text-white text-center">Data Kota/Kabupaten Belum Dipilih</p>
                     <?php endif ?>
                 </form>
             </div>

@@ -20,17 +20,19 @@
             <div class="hidden md:block">
                 <div class="ml-10 flex items-baseline space-x-4">
                 <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-                <a href="/" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white" >Dashboard</a>
+                <a href="/dashboard.php" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white" >Dashboard</a>
                 <a href="/kota.php" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Kota / Kabupaten</a>
                 <a href="/kecamatan.php" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Kecamatan</a>
                 <a href="/kelurahan.php" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Kelurahan</a>
+                <a href="/simulasi-umr.php" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Simulasi Tapera</a>
                 </div>
             </div>
             </div>
             
-            <div class="relative ml-3">
+            <div class="relative ml-1">
                 <div>
                     <a href="/about.php" class="rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-white" aria-current="page">Tentang Saya</a>
+                    <a href="/" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Sign Out</a>
                 </div>
             </div>
         </div>
@@ -48,14 +50,14 @@
             </div>
         </div>
     </header>
-    <main class="mt-8 mx-auto max-w-2xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
-        <div class="py-6 px-3 grid-grid-cols-1">
-            <div class="py-4 px-4 block max-w-sm bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 grid grid-cols-2">
+    <main class="mx-auto w-full px-4">
+        <div class="py-6 px-6">
+            <div class="py-4 px-4 w-full bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 grid grid-cols-2">
                 <div class="flex justify-center items-center">
-                    <img src="/img/sa.png" alt="" height="400" width="400">
+                    <img src="/img/sa.png" alt="" height="300" width="300">
                 </div>
                 <div class="bg-white overflow-hidden shadow rounded-lg border">
-                    <div class="px-4 py-5 sm:px-6 mt-3">
+                    <div class="px-4 py-3 sm:px-6 mt-3">
                         <h3 class="text-lg leading-6 font-medium text-gray-900">
                             Profil Saya
                         </h3>
@@ -66,7 +68,7 @@
                     <hr>
                     <div class="border-t border-gray-200 px-4 py-5 sm:p-0">
                         <dl class="sm:divide-y sm:divide-gray-200">
-                            <div class="py-1 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                            <div class="py-3 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
                                 <dt class="text-sm font-medium text-gray-500">
                                     Nama Lengkap
                                 </dt>
@@ -74,7 +76,7 @@
                                     < <em>Diisi nama lengkap kamu</em> >
                                 </dd>
                             </div>
-                            <div class="py-2 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                            <div class="py-3 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
                                 <dt class="text-sm font-medium text-gray-500">
                                     Nomor Induk Siswa
                                 </dt>
@@ -82,7 +84,7 @@
                                     < <em>Diisi NIS kamu</em> >
                                 </dd>
                             </div>
-                            <div class="py-2 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                            <div class="py-3 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
                                 <dt class="text-sm font-medium text-gray-500">
                                     Alamat Email
                                 </dt>
@@ -90,7 +92,7 @@
                                     < <em>Diisi email kamu yang aktif</em> >
                                 </dd>
                             </div>
-                            <div class="py-2 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                            <div class="py-3 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
                                 <dt class="text-sm font-medium text-gray-500">
                                     Nomor Telpon dan Whatsapp
                                 </dt>
@@ -98,11 +100,11 @@
                                     < <em>Diisi nomor whatsapp</em> >
                                 </dd>
                             </div>
-                            <div class="py-2 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                            <div class="py-3 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
                                 <dt class="text-sm font-medium text-gray-500">
                                     Kelas
                                 </dt>
-                                <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
+                                <dd class="mt-0.5 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
                                     < <em>Diisi kelas kamu</em> >
                                 </dd>
                             </div>
